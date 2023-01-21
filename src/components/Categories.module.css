@@ -1,0 +1,28 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.easy {
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+}
+
+.normal {
+    background-color: rgb(83, 83, 198);
+    border: none; 
+    cursor: pointer;
+}
+
+.hard {
+    background-color: rgb(255, 47, 47);
+    border: none;
+    cursor: pointer;
+}

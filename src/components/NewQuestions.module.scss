@@ -1,0 +1,36 @@
+.form {
+    padding: 15px 0 0 0;
+    textarea {
+        resize: none;
+        width: 100%;
+        min-height: 50px;
+        flex-wrap: nowrap;
+        display: inline-flex;
+    }
+
+    .top_bar {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            button {
+                cursor: pointer;
+            }:hover{
+                background-color: rgb(226, 226, 226);
+            }
+            .easy {
+                background-color: rgb(183, 255, 196);
+                border-color: rgb(183, 255, 196);
+            }
+            .normal {
+                background-color: rgb(183, 184, 255);
+                border-color: rgb(183, 184, 255);
+            }
+            .hard {
+                background-color: rgb(255, 183, 183);
+                border-color: rgb(255, 183, 183);
+            }
+        }
+        
+    }
+}

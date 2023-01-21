@@ -1,0 +1,24 @@
+.cards {
+    margin-top: 50px;
+    .card {
+
+
+            background-color: rgb(160, 45, 68);
+            margin-top: 10px;
+            min-height: 300px;
+            border-radius: 2%;
+            flex-wrap: nowrap;
+            padding: 100px;
+            box-sizing: border-box;
+
+            h1 {
+                color: white;
+            }
+
+            span {
+                color: white;
+
+            }
+
+    }
+}
